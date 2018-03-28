@@ -45,10 +45,7 @@ def can_find_the_first_item_from_the_database_using_id
   Movie.find_by_id(1).title
 end
 
-def can_find_by_multiple_attributes
-  # title == "Title"
-  # release_date == 2000
-  # director == "Me"
+def can_find_by_multiple_attribute
   __
 end
 
