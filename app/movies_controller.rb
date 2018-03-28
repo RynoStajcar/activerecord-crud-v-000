@@ -51,7 +51,7 @@ end
 
 def can_find_using_where_clause_and_be_sorted
   binding.pry
-  Movie.where()
+  Movie.where(release_date > '2002')
 end
 
 def can_be_found_updated_and_saved
